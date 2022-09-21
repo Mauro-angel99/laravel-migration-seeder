@@ -11,6 +11,10 @@
             <h6>{{ $train->Stazione_di_arrivo }}</h6>
             <h6>{{ $train->Orario_di_partenza }}</h6>
             <h6>{{ $train->Orario_di_arrivo }}</h6>
+            <h6>{{ $train->Codice_Treno }}</h6>
+            <h6>{{ $train->Numero_Carrozze }}</h6>
+            <h6>{{ $train->In_orario }}</h6>
+            <h6>{{ $train->Cancellato }}</h6>
         </div>
         @endforeach
     </div>
